@@ -9,7 +9,7 @@ The main task for the classification is to indentify the features of the image t
 Simplest method is to just use image as an input. Define a hyperplane than separates the images into two class SVM (such as using oneclasssvm)
 
 ### Traditional Feature extractors + classifer. 
-This is a standard method in image classification. We can use HOG, SIFT or GABOR feature extractor. Use the features as input to classifier. Examples of classiers include SVM, MAP etc. 
+This is a standard method in image classification. We can use HOG, SIFT or GABOR feature extractor. Use the features as input to classifier. Examples of classiers include SVM, MAP etc. SIFT is faster compared to GABOR (based on google search). 
 
 ### Deep learning based approches.
 Given the large number of training images. This approach will possibly give best results. 
