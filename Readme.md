@@ -31,9 +31,9 @@ In this method, we used trasfer learning on resnet model. Additional images is g
 Fast.ai library was used for trasfer learning.
 First, dense layer of the resnet is remove and is trained with the ROPE dataset.
 Then all layers are trained with varying learning rate. 
-Archieved an accuracy of 99.8% on the validation dataset. 
+Archieved an accuracy of >99.9% on the validation dataset. 
 Achieved predictions/sec = 128 images on P40. 
-
+After about 8 epochs, the validation accurnacy was close to perfect. 
 
 //TODO 
 
