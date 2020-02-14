@@ -5,6 +5,8 @@ Find defects in the rope.
 
 The main task for the classification is to indentify the features of the image that represent the defect. The features can then be passed as an input to classifier. 
 
+
+
 ### SVM: 
 Simplest method is to just use image as an input. Define a hyperplane than separates the images into two class SVM (such as using oneclasssvm)
 
@@ -14,10 +16,13 @@ This is a standard method in image classification. We can use HOG, SIFT or GABOR
 ### Deep learning based approches.
 Given the large number of training images. This approach will possibly give best results. 
 
+## Handcrafting featers.
+Look for black line in the rope. White cotton handing. If anything other than a perfect closed countour mark it as a anamoly. 
 
 ## Dataset 
 Generated images from the look clean (no blurr,shadows). The orientation of the rope is changing. 
-On every anamoly image, there is a black blob. This needs to be identified. 
+On every anamoly image, there is a black blob. It looks like there is a white cotton attached in some of the anamoly images. 
+This needs to be identified. 
 
 
 ## Which methos to implement? 
