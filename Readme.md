@@ -1,7 +1,7 @@
 # Objective
 Find defects in the rope.
 
-## Thoughts of methods 
+## Thoughts  
 
 The main task for the classification is to indentify the features of the image that represent the defect. The features can then be passed as an input to classifier. 
 
@@ -40,8 +40,7 @@ Archieved an accuracy of >99.9% on the validation dataset.
 Achieved predictions/sec = 128 images on P40. 
 After about 8 epochs, the validation accurnacy was close to perfect. 
 
-//TODO 
-
-### SVM + HOG
-### Gabor Filter 
+## handcrafting features =
+Tried to detect the black spot/white cotton along the edges using coutour detection. Did not work. 
+### SVM + HOG  
 
